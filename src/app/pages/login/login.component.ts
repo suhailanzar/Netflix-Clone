@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
     if (isPlatformBrowser(this.platformId)) {
       // This code will only execute in the browser environment
       google.accounts.id.initialize({
-        client_id: '46258121982-bf0nmavbrpuhvaq89b6jkp4mf5pidubm.apps.googleusercontent.com',
+        client_id: '301370960689-vk7iljoi7cpsb2ucfujtf1j701kdjrfd.apps.googleusercontent.com',
         callback: (resp: any) => this.handleLogin(resp)
       });
 
